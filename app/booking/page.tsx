@@ -184,7 +184,7 @@ export default function BookingPage() {
           </button>
 
           <p className="text-xs text-gray-400 text-center mt-0">
-            전송 중입니다. 10초 정도 소요될 수 있습니다.
+            예약 신청하시면 작가가 검토 후 카톡 또는 DM으로 개별 연락 드립니다. 
           </p>
         </form>
       </div>
