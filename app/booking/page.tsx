@@ -103,11 +103,11 @@ export default function BookingPage() {
             </label>
             <select name="consent" className="w-full border p-3 rounded">
               <option>확인 및 동의함</option>
-              <option>안읽었음</option>
+              <option>비동의</option>
             </select>
 
             <p className="text-xs text-gray-400 text-center mt-2">
-              '안읽었음' 선택 시 예약 불가합니다.
+              '비동의' 선택 시 예약 불가합니다.
             </p>
           </div>
 
