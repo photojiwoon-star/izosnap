@@ -6,7 +6,7 @@ export default function Price() {
 
         {/* 가격 */}
         <div className="text-center">
-          <p className="text-5xl font-light tracking-wide">
+          <p className="text-5xl font-extralight tracking-wide">
             240,000
           </p>
           <p className="mt-2 text-lg">24만원</p>
