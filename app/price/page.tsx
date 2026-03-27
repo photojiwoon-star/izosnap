@@ -15,7 +15,7 @@ export default function Price() {
 
         {/* 시간 추가 */}
         <div className="space-y-4">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center pb-2 border-b border-dashed border-gray-300">
             <p className="text-lg">시간 추가</p>
             <p className="text-lg">30분 / 5만원</p>
           </div>
@@ -27,7 +27,7 @@ export default function Price() {
 
         {/* 인원 추가 */}
         <div className="space-y-4">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center pb-2 border-b border-dashed border-gray-300">
             <p className="text-lg">인원 추가</p>
             <p className="text-lg">1명 / 7만원</p>
           </div>
