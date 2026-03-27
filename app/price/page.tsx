@@ -9,7 +9,7 @@ export default function Price() {
           <p className="text-5xl font-light tracking-wide">
             240,000
           </p>
-          <p className="mt-2 text-lg">24만원</p>
+          <p className="mt-6 text-lg">24만원</p>
           <p className="mt-4 text-lg">2시간 촬영입니다.</p>
         </div>
 
