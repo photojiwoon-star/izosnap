@@ -6,7 +6,7 @@ export default function Price() {
 
         {/* 가격 */}
         <div className="text-center">
-          <p className="text-5xl font-extralight tracking-wide">
+          <p className="text-5xl font-light tracking-wide">
             240,000
           </p>
           <p className="mt-2 text-lg">24만원</p>
@@ -14,19 +14,25 @@ export default function Price() {
         </div>
 
         {/* 시간 추가 */}
-        <div className="space-y-3">
-          <p className="text-lg">시간 추가</p>
-          <p className="text-xl font-medium">30분 / 5만원</p>
-          <p className="text-sm text-gray-500">
+        <div className="space-y-4">
+          <div className="flex justify-between items-center">
+            <p className="text-lg">시간 추가</p>
+            <p className="text-lg">30분 / 5만원</p>
+          </div>
+
+          <p className="text-sm text-gray-500 text-center">
             최대 1시간 (총 3시간)까지 추가 가능
           </p>
         </div>
 
         {/* 인원 추가 */}
-        <div className="space-y-3">
-          <p className="text-lg">인원 추가</p>
-          <p className="text-xl font-medium">1명 / 7만원</p>
-          <p className="text-sm text-gray-500">
+        <div className="space-y-4">
+          <div className="flex justify-between items-center">
+            <p className="text-lg">인원 추가</p>
+            <p className="text-lg">1명 / 7만원</p>
+          </div>
+
+          <p className="text-sm text-gray-500 text-center">
             최대 3명 (총 4명)까지 추가 가능
           </p>
         </div>
