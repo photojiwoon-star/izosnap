@@ -18,7 +18,7 @@ export default function Price() {
           <div className="flex items-center gap-4">
             <p className="text-lg whitespace-nowrap">시간 추가</p>
 
-            <div className="flex-1 border-t border-dashed border-gray-200"></div>
+            <div className="flex-1 border-t-2 border-dashed border-gray-200 mx-8"></div>
 
             <p className="text-lg whitespace-nowrap">30분 / 5만원</p>
           </div>
@@ -33,7 +33,7 @@ export default function Price() {
           <div className="flex items-center gap-4">
             <p className="text-lg whitespace-nowrap">인원 추가</p>
 
-            <div className="flex-1 border-t border-dashed border-gray-200"></div>
+            <div className="flex-1 border-t-2 border-dashed border-gray-200 mx-8"></div>
 
             <p className="text-lg whitespace-nowrap">1명 / 7만원</p>
           </div>
