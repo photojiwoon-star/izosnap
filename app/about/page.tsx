@@ -13,7 +13,7 @@ export default function About() {
 
       <p>
        다만 이졸드 스냅은 몇 개월 후 폐업합니다. (작가 체력 및 수험 이슈..) <br />
-       이졸드의 사진을 원하신다면 빠른 예약 부탁드립니다.
+       이졸드 스냅을 원하신다면 빠른 예약 부탁드립니다.
       </p>
 
       {/* 🔥 여기만 수정됨 */}
@@ -25,11 +25,19 @@ export default function About() {
        안녕하세요 사진작가 이졸드입니다.
       </p>
 
+      <div className="flex justify-center my-8">
+       <img 
+        src="/artist.png"
+        alt="작가 이미지"
+        className="w-40 md:w-56 opacity-90"
+       /> 
+      </div> 
+
       <p>
        거창한 수식어는 없고, 그냥 사람을 예쁘게 찍는 데 진심인 사람입니다. <br />
        빛과 색감에 집착이 심합니다.
       </p>
-    
+
       <p>
        요즘 고민이 있다면, 저를 찾는 고객님들이 다들 과하게 예쁩니다. <br />
        그래서 촬영이 자꾸 길어집니다. <br />
