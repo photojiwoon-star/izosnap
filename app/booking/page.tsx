@@ -32,14 +32,14 @@ export default function BookingPage() {
  }
 
  const presets = [
-   { id: 1, src: "/presets/preset1.jpg", name: "골든아워", desc: "부드러운 노을빛과 따뜻한 분위기" },
-   { id: 2, src: "/presets/preset2.jpg", name: "핑크 빈티지", desc: "은은한 색감의 감성적인 빈티지 톤" },
-   { id: 3, src: "/presets/preset3.jpg", name: "햇빛 자연광", desc: "자연광 하나로 만든 깨끗한 밝기" },
-   { id: 4, src: "/presets/preset4.jpg", name: "매트", desc: "대비를 낮춘 차분한 필름 감성" },
+   { id: 1, src: "/presets/preset1.jpg", name: "골든아워", desc: "부드럽게 번지는 노을빛" },
+   { id: 2, src: "/presets/preset2.jpg", name: "핑크 빈티지", desc: "은은한 색감의 빈티지" },
+   { id: 3, src: "/presets/preset3.jpg", name: "햇빛 자연광", desc: "자연광 하나로 만드는 사진" },
+   { id: 4, src: "/presets/preset4.jpg", name: "매트", desc: "그림같은 차분함" },
    { id: 5, src: "/presets/preset5.jpg", name: "내추럴", desc: "왜곡 없이 자연 그대로의 색감" },
-   { id: 6, src: "/presets/preset6.jpg", name: "소프트 미스트", desc: "부드럽게 번지는 몽환적인 느낌" },
-   { id: 7, src: "/presets/preset7.jpg", name: "딥톤", desc: "짙은 색감으로 분위기를 강조" },
-   { id: 8, src: "/presets/preset8.jpg", name: "클린", desc: "깔끔하고 선명한 기본 보정" },
+   { id: 6, src: "/presets/preset6.jpg", name: "소프트 미스트", desc: "몽환적인 빛" },
+   { id: 7, src: "/presets/preset7.jpg", name: "딥톤", desc: "짙은 색감으로 인물을 강조" },
+   { id: 8, src: "/presets/preset8.jpg", name: "클린", desc: "깔끔한 기본 보정" },
  ]
 
  const togglePreset = (id: number) => {
