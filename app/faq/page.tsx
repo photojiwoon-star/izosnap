@@ -52,23 +52,13 @@ export default function FAQPage() {
 
         <h2 className="text-xl font-bold mt-10">아래는 제 워크플로우입니다.</h2>
 
-       <p>
-        1. 예약 접수 후 입금되면 촬영일 조율이 시작<br /> 
-        (예약 폼 써주시면 제가 써주신 번호 통해서 개별 연락 드립니다.)
-       </p>
-
-        <p>
-          2. 촬영 후 프리셋 (색감/분위기) 적용된 사진 약 700장 전달 (촬영일 3일 이내)<br/>
-        
-        </p>
-
-        <p>
-          3. 고객이 700장 중 후보정할 사진 7장 셀렉 (원본 전달 2주 이내)
-        </p>
-
-        <p>
-          4. 후보정 최종본 7장 전달 (셀렉 후 3개월 이내)
-        </p>
+        <div className="flex justify-center my-8">
+         <img
+          src="/info.png"
+          alt="워크플로우 사진"
+          className="w-40 md:w-56 opacity-90"
+          /> 
+        </div>
 
       </div>
     </main>
