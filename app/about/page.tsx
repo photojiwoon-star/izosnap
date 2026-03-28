@@ -22,7 +22,7 @@ export default function About() {
       </h1>
 
       <p>
-       안녕하세요 사진작가 이졸드입니다.
+       안녕하세요, 사진작가 이졸드입니다.
       </p>
 
       <div className="flex justify-center my-8">
