@@ -57,7 +57,8 @@ export default function BookingPage() {
        <h1 className="text-3xl font-bold text-center">예약하기</h1>
 
        <p className="text-xs text-gray-400 text-center mt-2">
-         모든 개인정보는 예약 목적으로만 쓰이며 저장되지 않습니다. 촬영 이후 바로 폐기됩니다.
+         모든 개인정보는 예약 목적으로만 쓰이며 저장되지 않습니다. <br/>
+         촬영 이후 바로 폐기됩니다.
        </p>
 
        <form onSubmit={handleSubmit} className="space-y-8">
