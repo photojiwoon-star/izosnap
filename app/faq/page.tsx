@@ -56,7 +56,7 @@ export default function FAQPage() {
          <img
           src="/info.png"
           alt="워크플로우 사진"
-          className="w-40 md:w-56 opacity-90"
+          className="w-60 md:w-60 opacity-90"
           /> 
         </div>
 
