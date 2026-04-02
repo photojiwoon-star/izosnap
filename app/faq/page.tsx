@@ -13,7 +13,7 @@ export default function FAQPage() {
 
         <p>
           2. SNS 업로드는 선택입니다. <br/>
-          (다만 작가가 임의로 소정의 금전적인 혜택을 드릴 수 있습니다.)
+      
         </p>
 
         <p>
